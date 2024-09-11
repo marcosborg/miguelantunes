@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', 'WebsiteController@index');
+Route::redirect('/', 'login');
 
 Auth::routes(['register' => false]);
 
